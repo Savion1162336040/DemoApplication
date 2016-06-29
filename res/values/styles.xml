@@ -1,0 +1,67 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 垂直分隔线样式 -->
+    <style name="verticalLine1dp">
+        <item name="android:background">#333333</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- 水平分隔线样式 -->
+    <style name="horizontalLine1dp">
+        <item name="android:background">#333333</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <!-- popwindow出现消息动画 -->
+    <style name="popup_animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+	
+    <declare-styleable name="AbSlidingButtonStyle">
+        <attr name="btn_bottom" format="integer|reference" />
+        <attr name="btn_frame" format="integer|reference" />
+        <attr name="btn_mask" format="integer|reference" />
+        <attr name="btn_unpressed" format="integer|reference" />
+        <attr name="btn_pressed" format="integer|reference" />
+    </declare-styleable>
+    <declare-styleable name="BaseDoT">
+        <attr name="circleColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="BaseDoTView">
+        <attr name="slideCount" format="integer|reference" />
+        <attr name="selectPosition" format="integer|reference" />
+        <attr name="selectedIndicatorColor" format="color|reference" />
+        <attr name="unselectedIndicatorColor" format="color|reference" />
+        <attr name="circleRadius" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="BaseTopBackCenterHeader">
+        <attr name="headerTitle" format="reference|string" />
+        <attr name="headerTitleColor" format="color|reference" />
+        <attr name="headerShowLeft" format="boolean" />
+        <attr name="headerLeftTitle" format="reference|string" />
+    </declare-styleable>
+    
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">  
+       <item name="android:windowBackground">@android:color/transparent</item>  
+       <item name="android:windowNoTitle">true</item>  
+   </style>  
+
+</resources>

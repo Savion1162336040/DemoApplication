@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.test3.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_jump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jump" />
+
+        <Button
+            android:id="@+id/btn_jump_aactivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jump_bactivity" />
+
+        <Button
+            android:id="@+id/btn_jump_bactivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jump_bactivity" />
+
+        <Button
+            android:id="@+id/btn_jump_cqmc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jump_cqmc" />
+
+        <Button
+            android:id="@+id/btn_jump_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jump_web" />
+
+        <Button
+            android:id="@+id/btn_jump_shake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jump_shake" />
+
+        <Button
+            android:id="@+id/btn_jump_okhttp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="okhttp" />
+
+        <Button
+            android:id="@+id/btn_jump_dot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dot" />
+
+        <Button
+            android:id="@+id/btn_jump_lauchmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lauchmode" />
+
+        <Button
+            android:id="@+id/btn_jump_sharedialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sharedialog" />
+
+        <Button
+            android:id="@+id/btn_jump_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notification" />
+    </LinearLayout>
+
+</ScrollView>
